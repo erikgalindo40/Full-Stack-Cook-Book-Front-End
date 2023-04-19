@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <Router basename='/React' >
+    <Router >
     <div className="App">
       <Header />
       <Routes>
