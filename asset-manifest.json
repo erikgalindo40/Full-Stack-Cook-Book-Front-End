@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Full-Stack-Cook-Book-Front-End/login/static/css/main.73849a17.css",
-    "main.js": "/Full-Stack-Cook-Book-Front-End/login/static/js/main.17c5ec3b.js",
+    "main.js": "/Full-Stack-Cook-Book-Front-End/login/static/js/main.f78d56b4.js",
     "index.html": "/Full-Stack-Cook-Book-Front-End/login/index.html",
     "main.73849a17.css.map": "/Full-Stack-Cook-Book-Front-End/login/static/css/main.73849a17.css.map",
-    "main.17c5ec3b.js.map": "/Full-Stack-Cook-Book-Front-End/login/static/js/main.17c5ec3b.js.map"
+    "main.f78d56b4.js.map": "/Full-Stack-Cook-Book-Front-End/login/static/js/main.f78d56b4.js.map"
   },
   "entrypoints": [
     "static/css/main.73849a17.css",
-    "static/js/main.17c5ec3b.js"
+    "static/js/main.f78d56b4.js"
   ]
 }
