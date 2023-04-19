@@ -1,7 +1,6 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://erikgalindo40.github.io/Full-Stack-Cook-Book-Front-End/Login",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
