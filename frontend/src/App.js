@@ -9,8 +9,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <p>update</p>
-    {/* <Router >
+    <Router >
     <div className="App">
       <Header />
       <Routes>
@@ -20,7 +19,7 @@ function App() {
       </Routes>
       <Footer />
     </div>
-    </Router> */}
+    </Router>
     </>
   );
 }

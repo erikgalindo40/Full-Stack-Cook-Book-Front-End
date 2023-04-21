@@ -20,6 +20,7 @@ function RecipeForm({ recipeEditInfo, setRecipeList }) {
 
     const onAddIngredient = (e) => {
         e.preventDefault()
+        debugger
         setIngredients(prevState=>(
             [...prevState, {unit:'',amount:'',name:'', id:v4()}]
         ))
