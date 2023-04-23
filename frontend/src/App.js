@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <Router basename='/Full-Stack-Cook-Book-Front-End/login' >
+    <Router basename='/Full-Stack-Cook-Book-Front-End' >
     <div className="App">
       <Header />
       <Routes>
