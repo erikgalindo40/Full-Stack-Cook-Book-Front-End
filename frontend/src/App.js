@@ -9,8 +9,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <Router basename='/Full-Stack-Cook-Book-Front-End' >
     <div className="App">
+    <Router  >
       <Header />
       <Routes>
         <Route path='/register' element={<Register />}></Route>
@@ -18,8 +18,8 @@ function App() {
         <Route path='/login' element={<Login />}></Route>
       </Routes>
       <Footer />
-    </div>
     </Router>
+    </div>
     </>
   );
 }
