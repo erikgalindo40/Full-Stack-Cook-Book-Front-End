@@ -12,7 +12,10 @@ function App() {
     <div className="App">
     <Router  >
       <Header />
-      <Link to={'/register'} ></Link>
+      <button>
+        link here
+        <Link to={'/register'} ></Link>
+      </button>
       <Routes>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>

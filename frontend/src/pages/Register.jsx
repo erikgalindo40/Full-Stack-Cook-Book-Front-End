@@ -79,7 +79,7 @@ function Register() {
         <label htmlFor="password2"></label>
         <input onChange={onChange} type="password" value={password2} name='password2' id='password2' placeholder='Confirm Password'/>
         {isPending&&<><div className='loading-message'>Please Wait...</div><Spinner/></>}
-        <p>Have an account? <Link to={'/login/'} className='form-link'>Login</Link></p>
+        <p>Have an account? <Link to={'/login'} className='form-link'>Login</Link></p>
         <button className='form-button'><HiOutlineUserAdd /> Register</button>
       </form>
     </main>

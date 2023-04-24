@@ -70,7 +70,7 @@ function Login() {
         <label htmlFor="password"></label>
         <input type="password" onChange={onChange} value={password} name='password' id='name' placeholder='Password'/>
         {isPending&&<><div className='loading-message'>Please Wait...</div><Spinner/></>}
-        <p>Need an account? <Link to={'/register/'} className='form-link'>Sign up</Link></p>
+        <p>Need an account? <Link to={'/register'} className='form-link'>Sign up</Link></p>
         <button className='form-button'><IoLogInOutline /> Sign In</button>
       </form>
       <button onClick={onSignInDemo} className='login-demo-button form-button'>Login as guest</button>
