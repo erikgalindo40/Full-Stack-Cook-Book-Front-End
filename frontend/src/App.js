@@ -13,9 +13,9 @@ function App() {
     <Router  >
       <Header />
       <Routes>
-        <Route path='/register' element={<Register />}></Route>
-        <Route path='/dashboard' element={<Dashboard />}></Route>
-        <Route path='/login' element={<Login />}></Route>
+        <Route path='/Full-Stack-Cook-Book-Front-End/register' element={<Register />}></Route>
+        <Route path='/Full-Stack-Cook-Book-Front-End/dashboard' element={<Dashboard />}></Route>
+        <Route path='/Full-Stack-Cook-Book-Front-End/login' element={<Login />}></Route>
       </Routes>
       <Footer />
     </Router>
