@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Dashboard from './pages/Dashboard';
 import Register from './pages/Register';
 import Login from './pages/Login'
@@ -12,11 +12,11 @@ function App() {
     <div className="App">
     <Router  >
       <Header />
-      <Link to={'/Full-Stack-Cook-Book-Front-End/register'} ></Link>
+      <Link to={'/register'} ></Link>
       <Routes>
-        <Route path='/Full-Stack-Cook-Book-Front-End/register' element={<Register />}></Route>
-        <Route path='/Full-Stack-Cook-Book-Front-End/dashboard' element={<Dashboard />}></Route>
-        <Route path='/Full-Stack-Cook-Book-Front-End/login' element={<Login />}></Route>
+        <Route path='/register' element={<Register />}></Route>
+        <Route path='/dashboard' element={<Dashboard />}></Route>
+        <Route path='/login' element={<Login />}></Route>
       </Routes>
       <Footer />
     </Router>
