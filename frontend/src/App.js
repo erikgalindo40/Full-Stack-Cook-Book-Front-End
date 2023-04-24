@@ -5,6 +5,7 @@ import Register from './pages/Register';
 import Login from './pages/Login'
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Startup from './pages/Startup';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Router >
       <Header />
       <Routes>
+        <Route path='*' element={<Startup />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
         <Route path='/login' element={<Login />}></Route>
