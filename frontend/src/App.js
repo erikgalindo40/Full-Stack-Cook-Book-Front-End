@@ -10,12 +10,9 @@ function App() {
   return (
     <>
     <div className="App">
-    <Router  >
+    <Router basename='/login' >
       <Header />
-      <button>
-        link here
-        <Link to={'/register'} ></Link>
-      </button>
+        <Link to={'/register'} >Register</Link>
       <Routes>
         <Route path='/register' element={<Register />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>
