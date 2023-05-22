@@ -1,0 +1,1 @@
+This Repo displays the front end for the Full Stack Cook Book project. When logging in as a guest, the initial loading time will take about a minute due to the backend being hosted on Render. Render has a windup time of aobut a minute once a login request is made, but all following requests should be near immediate depending on your connection.
