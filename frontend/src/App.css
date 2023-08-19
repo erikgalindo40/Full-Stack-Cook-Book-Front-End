@@ -40,6 +40,11 @@ html, body, .App {
     rotate: 360deg;
   }
 }
+/* STARTUP INFO COMPONENT */
+.startup-info-container {
+  text-align: end;
+  font-weight: 700;
+}
 /********************** 
       HEADER STYLES
 ***********************/

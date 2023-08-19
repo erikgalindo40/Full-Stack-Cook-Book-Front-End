@@ -2,6 +2,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { IoLogInOutline } from 'react-icons/io5'
 import Spinner from '../components/Spinner'
+import StartupInfo from '../components/StartupInfo'
 
 function Login() {
   const navigate = useNavigate()
@@ -73,6 +74,7 @@ function Login() {
         <p>Need an account? <Link to={'/register'} className='form-link'>Sign up</Link></p>
         <button className='form-button'><IoLogInOutline /> Sign In</button>
       </form>
+      {isPending&&<StartupInfo />}
       <button onClick={onSignInDemo} className='login-demo-button form-button'>Login as guest</button>
     </main>
   )
