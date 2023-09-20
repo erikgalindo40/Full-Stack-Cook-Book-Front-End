@@ -145,6 +145,7 @@ function RecipeForm({ recipeEditInfo, setRecipeList }) {
 
     useEffect(() => {
         if(recipeEditInfo.recipe) {
+            window.scrollTo({top:0, behavior:'smooth'})
             setIsEditing(true)
             setRecipeName(recipeEditInfo.recipe)
             setRecipeTime(recipeEditInfo.time)
@@ -154,7 +155,6 @@ function RecipeForm({ recipeEditInfo, setRecipeList }) {
         } else {
             resetRecipeState()
         }
-        // console.log('ran recipe effect')
     }, [recipeEditInfo])
     
 
