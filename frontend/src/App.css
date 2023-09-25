@@ -42,8 +42,9 @@ html, body, .App {
 }
 /* STARTUP INFO COMPONENT */
 .startup-info-container {
-  text-align: end;
+  text-align: center;
   font-weight: 700;
+  font-size: .85rem;
 }
 /********************** 
       HEADER STYLES
@@ -134,6 +135,7 @@ html, body, .App {
   border: none;
   padding: 1em;
   font-weight: bold;
+  color: var(--font-dark);
   background-color: var(--secondary);
   transition: 250ms;
   font-size: 1.1rem;
@@ -166,6 +168,7 @@ html, body, .App {
 .login-demo-button {
   margin-top: 1em;
   width: fit-content;
+  color: var(--font-dark);
   align-self: center;
   outline: 2px solid var(--primary);
 }
